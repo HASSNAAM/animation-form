@@ -12,6 +12,7 @@ body {
   display: grid;
   place-items: center;
   text-shadow: 1px 1px 5px rgba(254, 253, 255, 0.65);
+  font-weight: bold;
 }
 .main {
   position: relative;
