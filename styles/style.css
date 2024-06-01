@@ -13,6 +13,7 @@ body {
   place-items: center;
   text-shadow: 1px 1px 5px rgba(254, 253, 255, 0.65);
   font-weight: bold;
+  padding: 50px;
 }
 .main {
   position: relative;
@@ -126,6 +127,11 @@ input[type="password"] {
   color: #640866;
   text-transform: capitalize;
   box-shadow: 5px 5px 20px -9px rgba(255, 255, 255, 1);
+  border: 2px solid transparent;
+  font-weight: bold;
+}
+input:focus{
+  border-color:  #00ccfe;
 }
 ::placeholder {
   color: #2e0541;
